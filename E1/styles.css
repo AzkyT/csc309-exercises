@@ -1,0 +1,95 @@
+* {
+    font-family: "Andale Mono";
+    color: #26292d;
+}
+
+header {
+    background: rgba(219, 223, 225, 0.5);
+    margin: 2em;
+    padding: 2em;
+    border: 0.1em solid #4e5054;
+    box-shadow: 2px 2px 4px #8b8f98;
+    text-align: center;
+}
+
+body {
+    /* dotted background taken from stack exchange
+            https://stackoverflow.com/questions/55364127/making-a-dotted-grid-with-css */
+    background: #dbdfe1;
+    background-image: radial-gradient(#b4b8be 1px, transparent 0);
+    background-size: 25px 25px;
+    background-position: -19px -19px;
+}
+
+section {
+    background: rgba(219, 223, 225, 0.5);
+    padding: 1.5em;
+    border: 0.1em solid;
+    margin: 2em;
+    box-shadow: 2px 2px 4px #8b8f98;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px #8b8f98;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px #bdbfc4;
+}
+
+h3.contact {
+    text-align: center;
+}
+
+p, ul, form {
+    color: #585f6b;
+    margin-left: 1.5em;
+}
+
+li {
+    background: rgba(219, 223, 225, 0);
+    display: inline-block;
+    padding: 1em;
+    color: #585f6b;
+    font-style: italic;
+}
+
+a, nav a {
+    color: #4242d3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0d277a;
+}
+
+label {
+    padding: 1em;
+}
+
+input {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.input {
+    margin: 1em;
+}
+
+.hobby {
+    font-size: 1.25em;
+    margin-left: -1.5em;
+    border-radius: 0;
+    border-color: #4e5054;
+}
+
+#or {
+    padding-left: 1em;
+}

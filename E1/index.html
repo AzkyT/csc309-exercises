@@ -2,51 +2,71 @@
 <html lang="en">
 <head>
     <title> Personal Website </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 <header>
-    <h1> Alex Tran </h1>
+    <h1> alex tran </h1>
 
-    <!-- add navigation menu -->
     <nav>
-        <a href="/about"> About Me </a> <br>
-        <a href="/hobbies"> Hobbies </a> <br>
-        <a href="/contact"> Contact </a> <br>
+        <a href="#about"> about me</a>
+        <br>
+        <a href="#hobbies"> hobbies</a>
+        <br>
+        <a href="#contact"> contact</a>
+        <br>
     </nav>
 </header>
 
 <section id="about">
-    <h3> About Me </h3>
-    <p> ... </p>
+    <h3> about me </h3>
+    <p> hello! i'm alex tran, a computer science specialist studying at UofT. </p>
 </section>
 
 <section id="hobbies">
-    <h3> Hobbies </h3>
+    <h3> hobbies </h3>
     <ul>
-        <li> gaming </li>
-        <li> reading </li>
-        <li> volleyball </li>
+        <li>
+            <div class="hobby"> 1. gaming </div> <br>
+            i'm a huge fan of singleplayer games, the horizon series, lies of p, baldur's gate 3 being my
+            current favourites
+        </li>
+        <li>
+            <div class="hobby"> 2. reading </div> <br>
+            love a good romance or fantasy book, bonus points if its both
+        </li>
+        <li>
+            <div class="hobby"> 3. volleyball </div> <br>
+            quickly became my favourite sport since joining the team in grade 8, love the fast pace and
+            technicalities of the sport
+        </li>
     </ul>
 </section>
 
 <section id="contact">
-    <h3> Contact </h3>
+    <h3 class="contact"> contact </h3>
 
     <footer>
-        Email me at ...
+        <p> email me at <a href="mailto:alexqd.tran@mail.utoronto.ca"> alexqd.tran@mail.utoronto.ca</a> <p>
+        <p id="or"> or </p>
+        <p> fill in the form below </p>
 
         <form>
-            <label for="name"> Name: </label>
-            <input type="text" id="name"> <br>
-            <label for="email"> Email: </label>
-            <input type="email" id="email"> <br>
-            <label for="message"> Message: </label>
-            <textarea id="message"></textarea> <br>
-            <input type="submit" id="send" value="Send">
+            <div class="input">
+                <label for="name"> name: </label>
+                <input type="text" id="name"> <br>
+                <label for="email"> email: </label>
+                <input type="email" id="email"> <br>
+                <label for="message"> message: </label>
+                <textarea id="message"></textarea> <br>
+            </div>
+            <div>
+                <input type="submit" id="send" value="send">
+            </div>
         </form>
 
-
+        <p> &copy; 2024 Alex Tran </p>
     </footer>
 </section>
 
